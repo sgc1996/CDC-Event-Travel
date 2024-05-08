@@ -277,6 +277,15 @@
 		padding-right: 0;
 	}
 
+	.blog-content .image-col .inner,
+	.why-us-two .text-col .inner{
+		padding: 0;
+	}
+
+	.blog-content .text-col{
+		margin: 0;
+	}
+
 	.facts-two .count-box{
 		font-size: 48px;
 		padding-right: 10px;
@@ -770,6 +779,10 @@
 	.dsp-container .sp-header h1{
 		font-size: 36px;
 	}
+
+	.blog-content {
+		padding: 0;
+	  }
 	
 }
 
