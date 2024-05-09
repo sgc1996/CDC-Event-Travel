@@ -4824,7 +4824,7 @@ body.visible-sidebar{
 
 .packages-two .title-outer .title-box{
   float: left;
-  margin-bottom: 45px;
+  margin-bottom: 0px;
 }
 
 .packages-two .title-outer .tab-btns{
