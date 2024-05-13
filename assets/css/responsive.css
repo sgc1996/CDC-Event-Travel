@@ -170,6 +170,9 @@
 }
 
 @media only screen and (max-width: 1199px){
+	.main-header .main-box .logo-box .logo img {
+		height: 30px;
+	  }
 	.main-header .nav-toggler{
 		display: block;
 		float: right;
