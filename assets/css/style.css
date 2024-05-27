@@ -4797,6 +4797,27 @@ body.visible-sidebar{
 
 ***/
 
+.experience-content {
+  position: relative;
+}
+
+.trailer-video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.trailer-video video {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 2;
+}
+
 .packages-two{
   position: relative;
   padding: 40px 0 0;
