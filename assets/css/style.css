@@ -1607,7 +1607,7 @@ body.visible-sidebar{
   height: 102%;
   -o-object-fit: cover;
   object-fit: cover;
-  z-index: 2;
+  z-index: 0;
 }
 
 .banner-section{
