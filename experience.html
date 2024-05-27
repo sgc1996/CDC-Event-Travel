@@ -229,7 +229,7 @@
 					At CDC Travels, your adventure begins with your choices, and we are here to turn them into an extraordinary reality. Let us craft a Sri Lankan experience that's as unique as you are.
 				</p>
 				<div class="trailer-video">					
-					<video src="assets/images/resources/featured/experiences-trailer.mp4" autoplay="" loop="" unmuted="" playsinline="" ></video>
+					<video src="assets/images/resources/featured/experiences-trailer.mp4" controls></video>
 				</div>
 				<div class="packages">
 					<div class="row clearfix">
@@ -662,7 +662,38 @@
 	<script src="assets/js/lib/wow.min.js"></script>
 	<script src="assets/js/custom-script.js"></script>
 
+	<script>
 
+const video = document.getElementById('myVideo');
+
+function playVideo() {
+    video.play();
+}
+
+function pauseVideo() {
+    video.pause();
+}
+
+function stopVideo() {
+    video.pause();
+    video.currentTime = 0;
+}
+
+function muteVideo() {
+    video.muted = true;
+}
+
+function unmuteVideo() {
+    video.muted = false;
+}
+
+function setVolume() {
+    const volume = document.getElementById('volumeSlider').value;
+    video.volume = volume;
+}
+
+
+	</script>
 
 
 </body>

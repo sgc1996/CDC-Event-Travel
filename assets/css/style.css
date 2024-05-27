@@ -4811,12 +4811,21 @@ body.visible-sidebar{
   /* position: absolute; */
   top: 0;
   left: 0;
-  width: 100%;
+  width: 60%;
   height: auto;
   -o-object-fit: cover;
   object-fit: cover;
   z-index: 2;
 }
+
+/* .controls {
+  margin-top: 10px;
+}
+
+button, input[type="range"] {
+  margin-right: 10px;
+  padding: 5px;
+} */
 
 .packages-two{
   position: relative;
